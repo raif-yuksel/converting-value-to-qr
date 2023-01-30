@@ -1,0 +1,28 @@
+center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  center input,
+  center button,
+  center img {
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    border-radius: 4px;
+  }
+  center .inline {
+    margin-bottom: 20px;
+  }
+  center .inline input {
+    padding: 10px 0 10px 20px;
+    border: none;
+    width: 200px;
+  }
+  center .inline input:focus {
+    outline: none;
+  }
+  center .inline button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
